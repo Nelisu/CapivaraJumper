@@ -1,0 +1,7 @@
+distancia de uma plataforma ate a outra + ou - 80
+
+range -80 a -60
+
+288
+
+primeira plataforma -96 e -76. Distancia -384 a -364

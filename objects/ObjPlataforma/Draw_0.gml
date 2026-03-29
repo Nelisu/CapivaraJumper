@@ -1,0 +1,1 @@
+draw_sprite(Sprites[Index], 0, x, y);

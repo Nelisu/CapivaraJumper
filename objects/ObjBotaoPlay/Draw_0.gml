@@ -1,0 +1,10 @@
+draw_sprite_ext(sprite_index, 0, x, y, Xscale, Yscale, 0, c_white, 1);
+draw_set_halign(fa_center);
+draw_set_valign(fa_middle);
+draw_set_font(FntArialBlack);
+draw_set_color(Cor);
+draw_text_ext_transformed(x, y + 2, "JOGAR", string_height("T"), 2000, Xscale/2, Yscale/2, 0);
+draw_set_color(-1);
+draw_set_font(-1);
+draw_set_halign(-1);
+draw_set_valign(-1);

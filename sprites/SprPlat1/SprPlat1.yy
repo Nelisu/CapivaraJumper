@@ -1,8 +1,8 @@
 {
   "$GMSprite":"v2",
   "%Name":"SprPlat1",
-  "bboxMode":0,
-  "bbox_bottom":14,
+  "bboxMode":2,
+  "bbox_bottom":11,
   "bbox_left":0,
   "bbox_right":63,
   "bbox_top":0,
@@ -23,7 +23,7 @@
   ],
   "name":"SprPlat1",
   "nineSlice":null,
-  "origin":0,
+  "origin":1,
   "parent":{
     "name":"Plataformas",
     "path":"folders/Sprites/Plataformas.yy",
@@ -75,7 +75,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
+    "xorigin":32,
     "yorigin":0,
   },
   "swatchColours":null,
