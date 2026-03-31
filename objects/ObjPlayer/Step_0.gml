@@ -25,7 +25,9 @@ repeat(abs(Velv)){
         var _EfeitoPulo = instance_create_layer(x, y, layer, ObjEfeito);
         _EfeitoPulo.sprite_index = Efeitos[global.Skin];
         _EfeitoPulo.image_xscale = -image_xscale;
-        audio_play_sound(SndJump, 1, false);
+        var _Som = audio_play_sound(SndJump, 1, false);
+        var _Pitch = random_range(.6, 1);
+        audio_sound_pitch(_Som, _Pitch);
     }
     else{
         y += sign(Velv);
